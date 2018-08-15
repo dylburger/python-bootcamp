@@ -1,6 +1,6 @@
 ## Installing Python 3 and software for the course
 
-There are a few things we'd like you to install before starting the course, to make sure you're well-prepared to start coding.
+There are a few things we'd like you to install before the course, to make sure you're well-prepared to start coding.
 If you've never programmed before, many of these concepts will be new, but we'll try to explain what we're installing and why
 we're installing it along the way.
 
@@ -34,7 +34,9 @@ The `which` command tells you the location of the program you ask it about, in t
     ╰─$ which python3
     /usr/local/bin/python3
 
-**move to the section on installing `pipenv` below**. If you run this command and do not see any output, you do not have Python 3 installed, so read on.
+**move to the section on installing `pipenv` below**. 
+
+If you run this command and **do not** see any output, you do not have Python 3 installed, so read on.
 
 We're going to use a program called [Homebrew](https://brew.sh/#install) to install Python 3 and other software we'll use in this class. 
 To check if you have Homebrew installed, run this command in your terminal:
