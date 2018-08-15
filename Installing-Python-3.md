@@ -1,5 +1,9 @@
 ## Installing Python 3 and software for the course
 
+There are a few things we'd like you to install before starting the course, to make sure you're well-prepared to start coding.
+If you've never programmed before, many of these concepts will be new, but we'll try to explain what we're installing and why
+we're installing it along the way.
+
 ### Prerequisities
 
 Before reviewing this guide, make sure you've watched these lecture videos from the Udemy course:
@@ -7,7 +11,7 @@ Before reviewing this guide, make sure you've watched these lecture videos from 
 * [Python 2 vs. Python 3](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/9373030?start=0)
 * [Command Line Basics](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/9431354?start=0)
 
-*We are not going to install Python 3 using Anaconda, which the course recommends*. Anaconda can seem easier to use at first,
+**We are not going to install Python 3 using Anaconda, which the course recommends**. Anaconda can seem easier to use at first,
 but it complicates future work with Python. We'll walk you through our alternate setup step-by-step.
 
 ### Installing Python 3
@@ -43,21 +47,22 @@ which will install Python 3.
 
 ### Installing `pipenv`
 
-*Warning*: things are going to get a little weird, but we'll walk through this step-by-step to reinforce all the new terms and concepts.
+**Warning**: things are going to get a little weird, but we'll walk through this step-by-step to reinforce all the new terms and concepts.
 
-Python has a concept of *packages*: Python code that someone else has written and "packaged" to share with others. 
-If someone else has written code that does exactly what you want, you should use that code instead of re-inventing the wheel.
+Python has a concept of **packages**: Python code that someone else has written and "packaged" to share with others. For instance,
+[Flask](http://flask.pocoo.org/) helps you build a website with just a few lines of code. If you had to implement this functionality
+on your own, you'd write hundreds. If someone else has written code that does exactly what you want, you should use that code instead of re-inventing the wheel.
 
-We'll be using packages throughout the course: some are already installed when you install Python; others you have to install yourself.
-The latter are typically called *"third-party" packages*.
+We'll be using packages throughout the course. Some are already installed when you install Python; others you have to install yourself.
+The latter are typically called **"third-party" packages**.
 
 When you work on a new project, you want to make sure you clearly define all the packages that are required for your software to run.
 This way, if someone else teams up with you to work on the project, they can see a list of the packages they need to install 
-before they start. These are commonly known as *dependencies* (my project _depends on_ this package to run), or *requirements*.
+before they start. These are commonly known as **dependencies** (my project _depends on_ this package to run), or **requirements**.
 
 Different projects have different dependencies, so you need a way to install package `A` for one project, and package `B` for another.
 The programming we do for the course will have its own set of dependencies, so we'll want to keep those separate from projects
-you do for work. To manage the dependencies for different project, we'll create a new *environment* for each project. This helps
+you do for work. To manage the dependencies for different project, we'll create a new **environment** for each project. This helps
 separate everything related to a project in its own bucket.
 
 We'll use a tool called [`pipenv`](https://docs.pipenv.org/), which faciliates a few things related to environments:
@@ -73,7 +78,7 @@ To install `pipenv`, run
 
 ### Setting up a working directory for the class
 
-We'd like to keep a consistent structure for where we keep code for the class. We'll create a new *directory* (this is just a fancy name for a folder)
+We'd like to keep a consistent structure for where we keep code for the class. We'll create a new **directory** (this is just a fancy name for a folder)
 where everything will live.
 
 You can keep this new directory anywhere you want. We'll just try to keep what's _inside_ the directory consistent.
@@ -94,7 +99,7 @@ I'll be keeping the class directory in my home directory. To create a new direct
   
     mkdir python-bootcamp
 
-`mkdir` stands for: "make directory". Again, *you can create this directory anywhere on your computer you want*. If you want to keep this on your Desktop, for instance, run
+`mkdir` stands for: "make directory". Again, **you can create this directory anywhere on your computer you want**. If you want to keep this on your Desktop, for instance, run
 
     cd Desktop
     mkdir python-bootcamp
@@ -108,3 +113,5 @@ Now that this directory exists, `cd` into it:
 ### Installing `git`, downloading the code for class.
 
 For more information on `git`, watch the lecture video on [Git and Github Overview](https://www.udemy.com/complete-python-bootcamp/learn/v4/t/lecture/3422026?start=0).
+
+For now, we'll only use `git` to download the code we need for class. As the course progresses, we'll see the real power of `git`.
