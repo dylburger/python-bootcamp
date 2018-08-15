@@ -17,27 +17,27 @@ Your Mac only comes with Python 2 out of the box, so we'll need make sure we hav
 First, it's possible you might already have installed Python 3. Before we move on, open your terminal (e.g. the Terminal application on your Mac),
 and run
 
-  which python3
+    which python3
 
 `which` tells you the location of the program you ask it about, in this case `python3`. If you see any output from this command on a new line, e.g.
 
-  ╰─$ which python3
-  /usr/local/bin/python3
+    ╰─$ which python3
+    /usr/local/bin/python3
 
 **move to the section on installing `pipenv` below**. If you run this command and do not see any output, you do not have Python 3 installed, so read on.
 
 We're going to use a program called [Homebrew](https://brew.sh/#install) to install Python 3 and other software we'll use in this class. 
 To check if you have Homebrew installed, run this command in your terminal:
 
-  which brew
+    which brew
 
 If this doesn't print any output to the screen, copy and paste this command in your terminal, and press Enter:
 
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 Wait for Homebrew to finish installing. Once done, run
 
-  brew install python
+    brew install python
 
 which will install Python 3.
 
