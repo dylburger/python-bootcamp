@@ -1,6 +1,6 @@
 ## Installing Python 3 and software for the course
 
-### Pre-requisities
+### Prerequisities
 
 Before reviewing this guide, make sure you've watched these lecture videos from the Udemy course:
 
