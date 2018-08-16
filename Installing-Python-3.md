@@ -47,7 +47,10 @@ If this doesn't print any output to the screen, copy and paste this command in y
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-This installs Homebrew. Wait for Homebrew to finish installing. Once done, run
+This installs Homebrew. You may be prompted to enter your computer's password. When you type, you may also not see any characters
+printed to the screen as you type it. This is OK - keep typing it and press Enter. It should continue.
+
+You'll see quite a bit of output as Homebrew installs. Wait it to finish. Once done, run
 
     brew install python
 
@@ -82,7 +85,7 @@ We'll use a tool called [`pipenv`](https://docs.pipenv.org/), which faciliates a
 
 To install `pipenv`, run
 
-    pip3 intall pipenv
+    pip3 install pipenv
 
 There will be a lot of output here. To confirm `pipenv` was installed correctly, run
 
