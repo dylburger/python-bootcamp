@@ -56,6 +56,8 @@ You'll see quite a bit of output as Homebrew installs. Wait it to finish. Once d
 
 which will install Python 3.
 
+**Note**: if you encounter any strange errors or warnings installing Python 3 with `brew`, don't hesitate to reach out with questions!
+
 ### Installing `pipenv`
 
 **Warning**: things are going to get a little weird, but we'll walk through this step-by-step to reinforce all the new terms and concepts.
