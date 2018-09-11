@@ -1,0 +1,6 @@
+store_id,name,quantity,price
+123,"Bananas",3,0.50
+123,"",2,5
+,"Apples",3,1
+123,"Oranges",5,
+123,"Blueberries",0,3
